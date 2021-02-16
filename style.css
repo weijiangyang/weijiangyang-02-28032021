@@ -1,336 +1,336 @@
-@font-face{font-family: 'raleway';
-    src: url(./font/Raleway-VariableFont_wght.ttf);}
-.clearfix{content:'';
-display:table;
-clear:both;}
-a{text-decoration: none;color: black;}
-/* header a:visited{color:blue} */
-header a.active-page{color:blue;}
-body{font-family: 'raleway';}
-header{width: 1340px;
-    height: 440px;
-    margin:auto;
-    position:relative}
-header p.logo img{height: 50px;
+@font-face{
+    font-family: 'raleway-black';
+    src: url(./font/Raleway-Black.ttf);}
+@font-face{
+    font-family: 'raleway-semibold';
+    src:url(./font/Raleway-SemiBold.ttf)
+}
+@font-face{
+    font-family: 'raleway-light';
+    src:url(./font/Raleway-Light.ttf)
+}
+body{
+    font-family: raleway;
+    margin:0 auto;
+       
+    }
+
+a{text-decoration: none;}
+/* header */
+div.title{
+    width: 90%;
+    margin:0 auto;
+    position:relative;
+    margin-top:2rem;
+    }
+div.title img{
+    width: 6rem;
+    margin-left: 1rem;}
+.title nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1.5rem;
+    
+    }
+.title ul li{
+    width: 50%;
+    padding-bottom:0.5rem;
+    text-align: center;
+    font-size:0.9rem
+    }
+ nav ul li:last-child{
+    text-align: right;
     position:absolute;
-    top:50px;}
-header div.catelogue{position:absolute;
-    top:25px;
-    right: 10px;}
-header div.catelogue ul li{float:left;
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    border:2px transparent solid;padding:35px;}
-
-
-header div.catelogue ul li:nth-child(1){border-top:2px blue solid;}
-header h1{position:absolute;
-    top:138px;
-    font-weight: 800;
-    font-size:20px;}
-header h2{position:absolute;
-    top:170px;
-    font-weight: 200;
-    font-size: 16px;}
-header ul.filtre{display:flex;position:absolute;
-    top:287px}
-header ul.filtre li{height: 48px;
-    border:3px #F2F2F2 solid;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
-    line-height: 48px;
-    margin-right: 35px;
-    font-weight: 600;
-padding-right:20px;
-border-radius: 48px;
-
-font-weight: 900;}
-header ul.filtre li:nth-child(1){border:transparent;}
-
-header ul.filtre li i{
-    width: 48px;
-height: 48px;
-border:1px transparent solid;
-text-align: center;
-line-height: 48px;
-margin-right: 15px;
-border-radius: 48px;
-background-color:#DEEBFF;
-color:#0065FC;
-font-size: 18px;
+    top:1rem;
+    right:1rem;
+    line-height:2rem;
+    font-family:'raleway-semibold';
+    }
+nav ul li:first-child{
+    border-bottom: 3px blue solid;
 }
-h2.information{position:absolute;
-    top:372px;}
-h2.information i{display:inline-block; 
-    width: 30px;height:30px;
-border:2px #f2f2f2 solid;
-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-text-align: center;
-line-height: 30px;
-border-radius: 30px; 
-margin-right: 10px;
-color:#0065FC}
-section.hebergement{width: 1340px;
-    margin:auto;display: flex;
-    justify-content: space-between;}
-
-.left h1{position:absolute;
-    top:45px;
-    left:40px;
-    font-size:18px;
-    border-radius: 20px;
-    margin:auto;}
-.hebergement h2.afficher{position:absolute;
-    bottom:30px;
-    left:40px;
-    font-size: 13px;
-    font-family:'raleway'}
-div.left{width:880px;height: 625px;
-    background-color:#F2F2F2;
-    border-radius: 20px;
-    position:relative;}
-
-div.auberge-cannebiere,
-div.hotel-port,
-div.hotel-mouette,
-div.hotel-mer,
-div.auberge-panier,
-div.hotel-amina
-{width: 235px;height: 200px;
-    border:5px white solid;
-    border-radius: 10px;
-    background-color: white;
-    /* margin-right: 35px; */
-    margin-bottom: 30px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+h1.top{
+    margin:0 auto;
+    width:85%;
+    text-align:left;
+    line-height: 2rem;
+    font-family:'raleway-black';
+    margin-top:2rem;
+    font-size: 1.4rem;
+    }
+p.villes{
+    font-family:raleway-light;
+    font-size:1.0rem;
+    width: 85%;
+    margin:0 auto;
+    margin-top:0.9rem;
 }
-div.auberge-cannebiere img,
-div.hotel-port img,
-div.hotel-mouette img,
-div.hotel-mer img,
-div.auberge-panier img,
-div.hotel-amina img
-{width: 235px;
-    border-radius: 8px 8px 0 0;
-    margin-bottom: 8px;}
-div.auberge-cannebiere h2,
-div.hotel-port h2,
-div.hotel-mouette h2,
-div.hotel-mer h2,
-div.auberge-panier h2,
-div.hotel-amina h2
-{margin-left:8px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-family: 'raleway';}
+form{display: flex;
+    height: 3rem;
+    width: 85%;
+    
+    margin:0 auto;
+    border-radius: 0.5rem;
+    background-color: #F2F2F2;
+    border:1px #f2f2f2 solid;
+    margin-top:2rem;
+    }
+form a{
+    display: inline-block;
+    height: 3rem;
+    width: 15%;
+    font-size:1.25rem;
+    text-align: center;
+    margin-top:1rem;
+    color:black;}
+    
+form input[type='text'] {
+    
+    font-family: 'raleway-black';
+    width: 70%;
+    font-size: 1.125rem;
+    border:none;
+    font-size: 1.185rem;
+    text-indent: 1rem;
 
-div.auberge-cannebiere p,
-div.hotel-port p,
-div.hotel-mouette p,
-div.hotel-mer p,
-div.auberge-panier p,
-div.hotel-amina p
-{margin-left:8px;
-    margin-bottom:8px;
-    font-size: 14px;}
-div.menu-left{width:880px;
+}
+#butt{
+    color:white;
+    background-color: blue;
+    font-size: 1.2rem;
+    margin-right:0;
+    width: 15%;
+    border:none;
+    border-radius:0 0.5rem 0.5rem 0;
+    }
+h2.filtre{
+    width: 85%;
+    font-family:'raleway-black';
+    font-size:1.125rem;
+    margin:0 auto;
+    margin-top:3rem;
+    margin-bottom:1.3rem;
+    
+}
+ul.type-hotel{
+    margin:0 auto;
+    width: 85%;
+    
     display:flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    
-
-justify-content:space-evenly;margin-top: 90px;}
-/* section-right */
-div.right{width:420px;height: 625px;
-    background-color:#F2F2F2;
-    border-radius: 20px;
-    position:relative;}
-.hotel-soleil,
-.au-coeur-eau,
-.hotel-blanc-bleu
-{width:350px;
-    margin:auto;
-    border:5px white solid;border-radius:12px;
-    background-color: white;
-    position: relative;
-    margin-bottom:33px;
-box-shadow: 0 0 5px rgba(0,0,0,0.2);}
-.hotel-soleil{margin-top: 90px;}
-.hotel-soleil img,
-.au-coeur-eau img,
-.hotel-blanc-bleu img
-{width: 120px;height: 133px;
-    display: inline-block;
-    border-radius: 10px 0 0 10px;}
-.hotel-soleil div.desc,
-.au-coeur-eau div.desc,
-.hotel-blanc-bleu div.desc
-{float:right;
-    position:absolute;
-    top:15px;left:140px}
-.hotel-soleil div.desc h1,
-.au-coeur-eau div.desc h1,
-.hotel-blanc-bleu div.desc h1
-{margin-bottom: 10px;
-    font-size: 16px;}
-.hotel-soleil p,
-.au-coeur-eau p,
-.hotel-blanc-bleu p
-{font-size: 14px;
-    margin-bottom: 45px;}
-div.right>h1{float:left;
-    position:absolute;
-    top:45px;
-    left:30px;}
-div.right> p.sign{float:right;
-    position:absolute;
-    top:45px;
-    right:30px} 
-/* viewport */
-fieldset.viewport{width: 302px;
-    border-radius:20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);}
-fieldset.viewport img{width: 100%;
-    border-radius: 20px 20px 0 0;}
-fieldset.viewport figcaption{width: 100%;height: 56px;
-    
-text-align: center;
-line-height: 56px;
-font-weight: bold;
-border-radius: 0 0 20px 20px;
-text-align: left;
-text-indent: 20px;}
-/* forte-et-ile */
-    div.forte-et-ile{width: 302px;
+    font-size:1.025rem;
+    font-weight: bold;}
+ul.type-hotel li{
+    border:2px #F2F2F2 solid;
+    padding-right: 0.5rem;
+    padding-left:0rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    margin-right:0.5rem;
+    border-radius: 1.5rem;
         }
-fieldset.forte{width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2)}
-fieldset.forte img{width:100%;
-    border-radius: 20px 20px 0 0 }
-fieldset.forte figcaption{width: 100%;height: 56px;
-   
-
-line-height: 56px;
-font-weight: bold;
-border-radius: 0 0 20px 20px;
-text-align:left;
-text-indent: 20px;}
-fieldset.ile{width:100%;
-margin-top:43px;
-border-radius: 20px;
-box-shadow: 0 0 10px rgba(0,0,0,0.2)}
-fieldset.ile img{width: 100%;
-    border-radius: 20px 20px 0 0 ;}
-fieldset.ile figcaption{width: 100%;height: 56px;
-    
-text-align: center;
-line-height: 56px;
-font-weight: bold;
-border-radius: 0 0 20px 20px;
-text-align: left;
-text-indent: 20px;}
-fieldset.parc{width: 302px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2)}
-fieldset.parc img{width: 100%;
-border-radius: 20px 20px 0 0;}
-fieldset.parc figcaption{width: 100%;height: 56px;
-    
-text-align: center;
-line-height: 56px;
-font-weight: bold;
-text-align: left;
-text-indent: 20px;
-border-radius: 0 0 20px 20px;}
-div.dame-et-longchamp{width: 302px;
-    border-radius: 20px;
+ul.type-hotel li a{
+    color:black;
+    font-family: 'raleway-black';
+}
+    ul.type-hotel li i{
+        margin-right:0.4rem;
+        border:1px transparent solid;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+        border-radius: 1.5rem;
+        background-color:#DEEBFF ;
+        color:#0065FC
     }
-fieldset.dame{width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2)}
-fieldset.dame img{width: 100%;border-radius: 20px 20px 0 0 ;}
-fieldset.dame figcaption{width: 100%;height: 56px;
-    
-text-align: center;
-line-height: 56px;
-font-weight: bold;
-text-align: left;
-text-indent:20px;
-border-radius: 0 0 20px 20px;}
-fieldset.longchamp{width: 100%;
-    margin-top: 40px;
-border-radius: 20px;
-box-shadow: 0 0 10px rgba(0,0,0,0.2)}
-fieldset.longchamp img{width: 100%;
-    border-radius: 20px 20px 0 0 ;}
-fieldset.longchamp figcaption{width: 100%;height: 56px;
-   
-    
-text-align: center;
-line-height: 56px;
-font-weight: bold;
-text-align:left;
-text-indent: 20px;
-border-radius:0 0 20px 20px;}
-section.activite{margin:auto;
-    display:flex;
-    width: 1340px;
-    justify-content: space-between;
-    margin-top:110px;
-    
-}
-footer{width: 1440px;height: 175px;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-    
+    div.information{
+        width: 95%;
+        margin:2rem auto;
+        font-size: 1rem;
+        position: relative;
+        }
+    div.information p{
+        margin-left: 3rem;
+        line-height: 1.275rem;
+    }
+    div.information i{
+        position: absolute;
+        top:-0.6rem;
+        left:0.5rem;
+        display:inline-block;
+        width: 2rem;
+        height: 2rem;
+        border:1px #DEEBFF solid;
+        text-align: center;
+        line-height:2rem ;
+        border-radius: 2rem;
+        color:#0065FC;
+        font-size: 0.7rem;
+     }
+
+
+div.plus-populaire{
+    width: 90%;
     background-color:#F2F2F2;
-    margin-top:65px;
+    margin:auto;
+    
+    padding-bottom:1.2rem;
+    margin-bottom: 5rem;
+    
+    }
+div.titre-hotel{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    padding:2.5rem 0;
+    font-size: 1.3rem;
+    font-family: 'raleway-black';
+    
+    
+    }
+div.hotel-populaire{
+    width: 85%;
+   aspect-ratio: 66/27;
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-bottom:1rem;
+ 
+    border-radius:10px;
+    border: 4px white solid;
+    background-color: white;
+}
+div.hotel-populaire img{
+    width:39%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 4px 0 0 4px;
+    
+    
+}
+div.desc{
+    width: 55%;
+    height: 100%;
+    position:relative;
+    padding-top:0.8rem;
+    font-size:0.9rem;
+    border-radius:0 1rem 1rem 0;
+    background-color:white;
+   
+}
+div.desc h2{
+    font-family:'raleway-black';
+    margin-bottom:0.6rem;
+    font-size:1rem;
+    line-height: 1.2rem;
+    }
+div.desc p.star{
+    position:absolute;
+    bottom:1.4rem;
+   
+}
 
+div.desc p i{
+    color:#0065FC;
+    
+    }
+div.image{
+    width: 100%;
+    aspect-ratio: 325/115;
+    margin:0 auto;
+    overflow: hidden;
+border-radius: 1.2rem 1.2rem 0 0;}
+div.image img{
+    width:100%;
+    object-fit: cover;
+    display:block;
+    position:relative;
+    top:-65px;
+    
+}
+.hebergement-marseille h2,
+.hebergement-marseille p
+{width: 95%;
+    margin:0 auto;
+    margin-top:0.6rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.875rem;
+}
+.hebergement-marseille h2{
+    font-size: 1.1rem;
+    font-family: 'raleway-black';
+    
+}
+.hebergement-marseille p i{
+    
+    color:#0065FC;
+    font-size: 0.9rem;
+}
+div.auberge{
+    
+    width: 76.5%;
+    margin:0 auto;
+    border:4px white solid;
+    padding-bottom:0rem;
+    
+    border:4px white solid;
+    border-radius:1.2rem;
+    box-shadow: 0 0 5px rgba(0, 0,0,0.3);
+    margin-bottom: 0.9rem;
+    
+}
+div.amina img{
+    top:-240px; 
 }
     
-footer div.propos{width:33.333%;
-    text-indent: 55px;
-    line-height: 30px;
-    padding-top:40px;
+      
+div.mer img{
+    top:-100px;
+}
+div.hebergement-marseille{
+    margin-bottom: 20rem;
+}
 
-}
-footer div.noshebergement{width:33.333%;
-    text-indent: 55px;
-    line-height: 30px;
-    padding-top: 40px;
-}
-footer div.assistance{width:33.333%;
-    text-indent: 55px;
-    line-height: 30px;
-    padding-top: 40px;
 
-}
-form {position:absolute;
-    top: 210px;
-height:40px;
-border:2px #f2f2f2 solid;
-border-radius: 10px;
-box-shadow: 0 0 1px rgba(0,0,0,0.2);
-}
-form input{border:none;
-font-size: 17px;
-font-weight: 400;
-line-height: 37px;}
-form input[type=submit]{background-color:#0065FC;
-color:white;
-line-height: 40px;
-border-radius: 0 10px 10px 0;
-}
-form  i{margin-right: 10px;
-    height: 29px;
-    width: 40px;
-    text-align: center;
-    line-height: 40px;
-    padding-top: 12px;
+div.vieux-port div.image{
+    width: 100%;
+    margin: 0 auto;
+    aspect-ratio: 334/136;
+    overflow: hidden;
     
-    font-size: 18px;
+}
+div.vieux-port img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    
+    
+}
+div.vieux-port h2{
+    width: 85%;
+    padding:1.375rem 0;
+    margin: 0 auto;
+    background-color: white;
+    
+    border-radius: 0 0 1.3rem 1.3rem;
+}
+div.vieux-port{
+    width: 85%;
+    margin:auto;
+    box-shadow: 0 0 5px rgba(0, 0,0,0.2);
+    border-radius: 2rem;
+}
+    
+    
+    
 
-background-color:#f2f2f2;
-border-radius: 10px 0 0 10px;}
+
+
+    
+    
+
+    
