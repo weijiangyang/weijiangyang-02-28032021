@@ -342,10 +342,10 @@ div.image img{
 /* la section de 'hebergement a marseille */
 /* ******************************* */
 .hebergement-marseille p.title{
-    width: 76.5%;
+    
     margin:0 auto;
    
-    margin-bottom: 2rem;
+    padding: 2.5rem 0;
     font-family: 'raleway-black';
     font-size:1.3rem;
 }
@@ -402,8 +402,35 @@ div.hebergement-marseille{
     margin-bottom: 3rem;
 }
 @media (min-width:1200px){
-div.
+    div.hebergement-marseille{
+        width: 65%;
+        background-color:#f2f2f2 ;
+        display:flex;
+        flex-wrap: wrap;
+        border-radius: 1rem;
+    }
+    div.auberge{
+        width: 28%;
+    }
+    div.plus-populaire{
+        width: 32%;
+        order:2;
+        margin-right:0;
+        border-radius: 1rem;
+        
+    }
+    div.container-main{
+        display:flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: steelblue;
+    }
+    .hebergement-marseille p.afficher{
+        margin-left:2rem}
 
+    
+    }
 }
 
 /* *************************************** */
