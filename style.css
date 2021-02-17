@@ -85,7 +85,7 @@ nav ul li:first-child{
 
 h1.top{
     margin:0 auto;
-    width:85%;
+    width:90%;
     text-align:left;
     line-height: 2rem;
     font-family:'raleway-black';
@@ -96,15 +96,15 @@ h1.top{
 p.villes{
     font-family:raleway-light;
     font-size:1.0rem;
-    width: 85%;
+    width: 90%;
     margin:0 auto;
     margin-top:0.9rem;
 }
 
 form{display: flex;
     height: 3rem;
-    width: 76.5%;
-    margin:auto;
+    width: 90%;
+    margin-left:5%;
     
     
     border-radius: 0.5rem;
@@ -114,8 +114,8 @@ form{display: flex;
     }
 @media (min-width:1200px){
     form{
-        max-width:500px;
-        margin-left:7.5%;
+        max-width:400px;
+        margin-left:5%;
     }
 }
 
@@ -150,19 +150,20 @@ form input[type='text'] {
     }
 
 h2.filtre{
-    width: 85%;
+    margin-left:;
     font-family:'raleway-black';
     font-size:1.125rem;
     margin:0 auto;
     margin-top:3rem;
     margin-bottom:1.3rem;
+    
 }
 
 ul.type-hotel{
     margin:0 auto;
-    width: 85%;
-    
+    width: 90%;
     display:flex;
+    display:;
     flex-wrap: wrap;
     font-size:1.025rem;
     font-weight: bold;}
@@ -178,6 +179,25 @@ ul.type-hotel li{
     border-radius: 1.5rem;
         }
 
+@media (min-width:1200px){
+    div.filtre{
+        width: 90%;
+        margin-left:5%;
+        background-color: seagreen;
+    }
+
+    ul.type-hotel {
+        flex:none;
+    }
+    
+    
+    
+    
+    
+   
+    
+    
+}
 ul.type-hotel li a{
     color:black;
     font-family: 'raleway-black';
@@ -195,7 +215,7 @@ ul.type-hotel li i{
     color:#0065FC      
 }
 div.information{
-    width: 95%;
+    width: 90%;
     margin:2rem auto;
     font-size: 1rem;
     position: relative;
