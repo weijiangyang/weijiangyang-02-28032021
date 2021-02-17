@@ -16,7 +16,9 @@ body{
     }
 
 a{text-decoration: none;}
+/* *************************** */
 /* header */
+/* *************************** */
 div.title{
     width: 90%;
     margin:0 auto;
@@ -47,7 +49,8 @@ div.title img{
     top:1rem;
     right:1rem;
     line-height:2rem;
-    font-family:'raleway-semibold';
+    font-family:'raleway-black';
+    
     }
 
 nav ul li:first-child{
@@ -120,7 +123,6 @@ h2.filtre{
     margin:0 auto;
     margin-top:3rem;
     margin-bottom:1.3rem;
-    
 }
 
 ul.type-hotel{
@@ -300,37 +302,42 @@ div.image img{
     color:#0065FC;
     font-size: 0.9rem;
 }
+
 div.auberge{
-    
     width: 76.5%;
     margin:0 auto;
     border:4px white solid;
     padding-bottom:0rem;
-    
     border:4px white solid;
     border-radius:1.2rem;
     box-shadow: 0 0 5px rgba(0, 0,0,0.3);
     margin-bottom: 0.9rem;
-    
-}
+}   
+
 div.amina img{
     top:-240px; 
 }
-    
-      
+       
 div.mer img{
     top:-100px;
 }
+
 .hebergement-marseille p.afficher{
     width: 76.5%;
     margin:0 auto;
-    font-family: 'raleway-black';
+    font-family: 'raleway-semibold';
     font-size: 1.2rem;
     margin-top:2rem;
 }
+
 div.hebergement-marseille{
     margin-bottom: 3rem;
 }
+
+
+/* *************************************** */
+/* la section de 'activites a marseille */
+/* ************************************** */
 
 div.activites-marseille h2{
     width: 85%;
@@ -343,15 +350,14 @@ div.activite div.image{
     margin: 0 auto;
     aspect-ratio: 334/136;
     overflow: hidden;
-    
-}
+}    
+
 div.activite img{
     width: 100%;
     object-fit: cover;
     border-radius: 2rem 2rem 0 0;
+}    
     
-    
-}
 div.activite p{
     width: 85%;
     padding:1.375rem 0;
@@ -361,6 +367,7 @@ div.activite p{
     font-family: 'raleway-black';
     font-size:1.2rem;
 }
+
 div.activite{
     width: 85%;
     margin:auto;
@@ -371,13 +378,15 @@ div.activite{
     
 div.activite img.pomegue{
     top:-200px;
-
 } 
 
 div.activite img.garde{
     top:-30px;
 }
 
+/************************* */
+/* footer */
+/* *********************** */
 div.footer{
     width: 90%;
     background-color:#F2F2F2 ;
@@ -386,9 +395,10 @@ div.footer{
 }
 
 div.foot-desc h3,
-div.foot-desc p               
-{margin-left: 2rem;
+div.foot-desc p {              
+    margin-left: 2rem;
 }
+
 div.foot-desc h3{
     padding-top:3rem;
     padding-bottom:1rem;
