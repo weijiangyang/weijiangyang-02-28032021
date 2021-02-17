@@ -344,7 +344,7 @@ div.image img{
 .hebergement-marseille p.title{
     
     margin:0 auto;
-   
+   width: 90%;
     padding: 2.5rem 0;
     font-family: 'raleway-black';
     font-size:1.3rem;
@@ -371,7 +371,7 @@ div.image img{
 }
 
 div.auberge{
-    width: 76.5%;
+    width: 85%;
     margin:0 auto;
     border:4px white solid;
     padding-bottom:0rem;
@@ -398,27 +398,51 @@ div.mer img{
 }
 
 div.hebergement-marseille{
-    
+    width: 90%;
     margin-bottom: 3rem;
+    margin:auto;
 }
 @media (min-width:1200px){
     div.hebergement-marseille{
         width: 65%;
         background-color:#f2f2f2 ;
         display:flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         border-radius: 1rem;
-    }
+        margin:0;
+        padding-top:6rem;
+        position:relative;
+    }    
+    div.hebergement-marseille p.title{
+        position:absolute;
+        top:0rem;
+    }   
+
+    
     div.auberge{
         width: 28%;
+        
+        
     }
     div.plus-populaire{
         width: 32%;
         order:2;
         margin-right:0;
         border-radius: 1rem;
-        
+        margin-bottom:0;
+        margin-top:0;
+        padding-top:6rem;
+        position:relative;
     }
+
+    div.plus-populaire div.titre-hotel{
+        position:absolute;}
+    
+        
+    
+    
+    
     div.container-main{
         display:flex;
         width: 90%;
