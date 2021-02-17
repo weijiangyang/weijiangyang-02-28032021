@@ -296,21 +296,21 @@ div.hebergement-marseille{
 }
 
 
-div.vieux-port div.image{
+div.activite div.image{
     width: 100%;
     margin: 0 auto;
     aspect-ratio: 334/136;
     overflow: hidden;
     
 }
-div.vieux-port img{
+div.activite img{
     width: 100%;
     object-fit: cover;
-    border-radius: 2rem;
+    border-radius: 2rem 2rem 0 0;
     
     
 }
-div.vieux-port h2{
+div.activite h2{
     width: 85%;
     padding:1.375rem 0;
     margin: 0 auto;
@@ -318,14 +318,22 @@ div.vieux-port h2{
     
     border-radius: 0 0 1.3rem 1.3rem;
 }
-div.vieux-port{
+div.activite{
     width: 85%;
     margin:auto;
     box-shadow: 0 0 5px rgba(0, 0,0,0.2);
     border-radius: 2rem;
 }
     
-    
+div.activite img.pomegue{
+    top:-200px;
+
+} 
+
+div.activite img.garde{
+    top:-30px;
+}
+
     
 
 
