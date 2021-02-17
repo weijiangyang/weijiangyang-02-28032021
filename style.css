@@ -344,13 +344,18 @@ div.activite img.garde{
 div.footer{
     width: 90%;
     background-color:#F2F2F2 ;
-    margin:0 auto;
+    margin:1.8rem auto;
+    padding-bottom:1rem;
 }
 
 div.foot-desc h3,
 div.foot-desc p               
 {margin-left: 2rem;
-    
+}
+div.foot-desc h3{
+    padding-top:3rem;
+    padding-bottom:1rem;
+    font-family: 'raleway-black';
 }
 
 
