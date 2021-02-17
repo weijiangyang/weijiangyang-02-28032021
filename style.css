@@ -148,9 +148,13 @@ form input[type='text'] {
     border:none;
     border-radius:0 0.5rem 0.5rem 0;
     }
-
+div.filtre{
+    width: 90%;
+    
+    margin:auto;
+}
 h2.filtre{
-    margin-left:;
+    margin-left:0;
     font-family:'raleway-black';
     font-size:1.125rem;
     margin:0 auto;
@@ -161,9 +165,9 @@ h2.filtre{
 
 ul.type-hotel{
     margin:0 auto;
-    width: 90%;
+    width: 100%;
     display:flex;
-    display:;
+    
     flex-wrap: wrap;
     font-size:1.025rem;
     font-weight: bold;}
@@ -184,13 +188,23 @@ ul.type-hotel li{
         width: 90%;
         margin-left:5%;
         background-color: seagreen;
+        display:flex;
+        margin-top:2.5rem
+    }
+    h2.filtre{
+        margin-top:1rem;
+        margin-left:0;
+        margin-right:2rem
     }
 
     ul.type-hotel {
         flex:none;
+
     }
     
-    
+    ul.type-hotel li{
+        margin-right:1.2rem;
+    }
     
     
     
@@ -384,9 +398,13 @@ div.mer img{
 }
 
 div.hebergement-marseille{
+    
     margin-bottom: 3rem;
 }
+@media (min-width:1200px){
+div.
 
+}
 
 /* *************************************** */
 /* la section de 'activites a marseille */
