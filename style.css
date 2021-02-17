@@ -363,6 +363,7 @@ div.image img{
 .hebergement-marseille h2{
     font-size: 1.1rem;
     font-family: 'raleway-black';
+    margin-top: 0.725rem;
 }   
 
 .hebergement-marseille p i{
@@ -386,7 +387,9 @@ div.auberge div.image{
 }
 
 
-div.image img{object-fit: cover;}
+div.image img{
+    width: 100%;
+    object-fit: cover;}
 
     
 
@@ -506,6 +509,11 @@ div.activite img.pomegue{
 
 div.activite img.garde{
     top:-30px;
+}
+@media (min-width:1200px){
+    div.activites-marseille{
+        display:flex;
+    }
 }
 
 /************************* */
