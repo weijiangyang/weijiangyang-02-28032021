@@ -380,6 +380,9 @@ div.auberge{
     box-shadow: 0 0 5px rgba(0, 0,0,0.3);
     margin-bottom: 0.9rem;
 }   
+div.auberge div.image{
+    aspect-ratio: ;
+}
 
 div.amina img{
     top:-240px; 
@@ -387,6 +390,11 @@ div.amina img{
        
 div.mer img{
     top:-100px;
+}
+div.panier img{
+    object-fit: contain;
+    
+    
 }
 
 .hebergement-marseille p.afficher{
@@ -416,7 +424,8 @@ div.hebergement-marseille{
     }    
     div.hebergement-marseille p.title{
         position:absolute;
-        top:0rem;
+        top:0;
+        left:2%
     }   
 
     
@@ -437,12 +446,11 @@ div.hebergement-marseille{
     }
 
     div.plus-populaire div.titre-hotel{
-        position:absolute;}
-    
-        
-    
-    
-    
+        position:absolute;
+        top:0;
+        left:5%;
+    }
+ 
     div.container-main{
         display:flex;
         width: 90%;
@@ -452,10 +460,8 @@ div.hebergement-marseille{
     }
     .hebergement-marseille p.afficher{
         margin-left:2rem}
-
-    
+        }
     }
-}
 
 /* *************************************** */
 /* la section de 'activites a marseille */
@@ -465,6 +471,7 @@ div.activites-marseille h2{
     width: 85%;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
+    position:absolute;
 }
 
 div.activite div.image{
