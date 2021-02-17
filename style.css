@@ -355,7 +355,7 @@ div.image img{
 {
     width: 95%;
     margin:0 auto;
-    margin-top:0.6rem;
+    
     margin-bottom: 0.9rem;
     font-size: 0.875rem;
 }
@@ -374,28 +374,23 @@ div.auberge{
     width: 85%;
     margin:0 auto;
     border:4px white solid;
-    padding-bottom:0rem;
+    
     border:4px white solid;
     border-radius:1.2rem;
     box-shadow: 0 0 5px rgba(0, 0,0,0.3);
     margin-bottom: 0.9rem;
 }   
 div.auberge div.image{
-    aspect-ratio: ;
+    aspect-ratio: 238/125;
+    
 }
 
-div.amina img{
-    top:-240px; 
-}
-       
-div.mer img{
-    top:-100px;
-}
-div.panier img{
-    object-fit: contain;
+
+div.image img{object-fit: cover;}
+
     
-    
-}
+
+
 
 .hebergement-marseille p.afficher{
     width: 76.5%;
@@ -420,7 +415,7 @@ div.hebergement-marseille{
         border-radius: 1rem;
         margin:0;
         padding-top:6rem;
-        position:relative;
+        
     }    
     div.hebergement-marseille p.title{
         position:absolute;
