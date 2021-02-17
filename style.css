@@ -10,7 +10,7 @@
     src:url(./font/Raleway-Light.ttf)
 }
 body{
-    font-family: raleway;
+    font-family:'raleway' ;
     margin:0 auto;
        
     }
@@ -26,17 +26,13 @@ div.title{
     margin-top:2rem;
     }
 
-@media (min-width:1200px){
-    body{background-color: sandybrown;}
-}
+
 
 div.title img{
     width: 6rem;
     margin-left: 1rem;}
 
-@media (min-width:1200px){
-div.title img{width: 6.5rem;}
-}
+
 .title nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -47,18 +43,8 @@ div.title img{width: 6.5rem;}
     width: 50%;
     padding-bottom:0.5rem;
     text-align: center;
-    font-size:0.9rem
-    }
-@media (min-width:1200px){
-    .title nav{
-        w
-    }
-    .title ul li{
-        width:25%;
-        padding-bottom:0;
-        padding-top:1rem;
-    }
-}
+    font-size:0.9rem}
+
 
 
  nav ul li:last-child{
@@ -68,11 +54,33 @@ div.title img{width: 6.5rem;}
     right:1rem;
     line-height:2rem;
     font-family:'raleway-black';
-    
-    }
+}    
+
+
 
 nav ul li:first-child{
     border-bottom: 3px blue solid;
+}
+
+@media (min-width:1200px){
+    body{
+        background-color: seagreen;
+    }
+    .title{
+        display:flex;
+        justify-content: space-between;
+    }
+    .title nav{
+        width:35%;
+    }
+    .title nav ul li{
+        width:33.3%
+    }
+    nav ul li:last-child{
+        position:static;
+        line-height: 1rem;
+        text-align: center;
+    }
 }
 
 h1.top{
@@ -95,14 +103,21 @@ p.villes{
 
 form{display: flex;
     height: 3rem;
-    width: 85%;
+    width: 76.5%;
+    margin:auto;
     
-    margin:0 auto;
+    
     border-radius: 0.5rem;
     background-color: #F2F2F2;
     border:1px #f2f2f2 solid;
     margin-top:2rem;
     }
+@media (min-width:1200px){
+    form{
+        max-width:500px;
+        margin-left:7.5%;
+    }
+}
 
 form a{
     display: inline-block;
