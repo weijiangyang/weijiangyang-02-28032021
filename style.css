@@ -23,21 +23,24 @@ div.title{
     position:relative;
     margin-top:2rem;
     }
+
 div.title img{
     width: 6rem;
     margin-left: 1rem;}
+
 .title nav ul{
     display: flex;
     flex-wrap: wrap;
     margin-top:1.5rem;
-    
     }
+    
 .title ul li{
     width: 50%;
     padding-bottom:0.5rem;
     text-align: center;
     font-size:0.9rem
     }
+
  nav ul li:last-child{
     text-align: right;
     position:absolute;
@@ -46,9 +49,11 @@ div.title img{
     line-height:2rem;
     font-family:'raleway-semibold';
     }
+
 nav ul li:first-child{
     border-bottom: 3px blue solid;
 }
+
 h1.top{
     margin:0 auto;
     width:85%;
@@ -58,6 +63,7 @@ h1.top{
     margin-top:2rem;
     font-size: 1.4rem;
     }
+
 p.villes{
     font-family:raleway-light;
     font-size:1.0rem;
@@ -65,6 +71,7 @@ p.villes{
     margin:0 auto;
     margin-top:0.9rem;
 }
+
 form{display: flex;
     height: 3rem;
     width: 85%;
@@ -75,6 +82,7 @@ form{display: flex;
     border:1px #f2f2f2 solid;
     margin-top:2rem;
     }
+
 form a{
     display: inline-block;
     height: 3rem;
@@ -94,6 +102,7 @@ form input[type='text'] {
     text-indent: 1rem;
 
 }
+
 #butt{
     color:white;
     background-color: blue;
@@ -103,6 +112,7 @@ form input[type='text'] {
     border:none;
     border-radius:0 0.5rem 0.5rem 0;
     }
+
 h2.filtre{
     width: 85%;
     font-family:'raleway-black';
@@ -112,6 +122,7 @@ h2.filtre{
     margin-bottom:1.3rem;
     
 }
+
 ul.type-hotel{
     margin:0 auto;
     width: 85%;
@@ -120,6 +131,7 @@ ul.type-hotel{
     flex-wrap: wrap;
     font-size:1.025rem;
     font-weight: bold;}
+
 ul.type-hotel li{
     border:2px #F2F2F2 solid;
     padding-right: 0.5rem;
@@ -130,56 +142,59 @@ ul.type-hotel li{
     margin-right:0.5rem;
     border-radius: 1.5rem;
         }
+
 ul.type-hotel li a{
     color:black;
     font-family: 'raleway-black';
 }
-    ul.type-hotel li i{
-        margin-right:0.4rem;
-        border:1px transparent solid;
-        width: 3rem;
-        height: 3rem;
-        text-align: center;
-        line-height: 3rem;
-        border-radius: 1.5rem;
-        background-color:#DEEBFF ;
-        color:#0065FC
-    }
-    div.information{
-        width: 95%;
-        margin:2rem auto;
-        font-size: 1rem;
-        position: relative;
-        }
-    div.information p{
-        margin-left: 3rem;
-        line-height: 1.275rem;
-    }
-    div.information i{
-        position: absolute;
-        top:-0.6rem;
-        left:0.5rem;
-        display:inline-block;
-        width: 2rem;
-        height: 2rem;
-        border:1px #DEEBFF solid;
-        text-align: center;
-        line-height:2rem ;
-        border-radius: 2rem;
-        color:#0065FC;
-        font-size: 0.7rem;
-     }
 
-
+ul.type-hotel li i{
+    margin-right:0.4rem;
+    border:1px transparent solid;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 1.5rem;
+    background-color:#DEEBFF ;
+    color:#0065FC      
+}
+div.information{
+    width: 95%;
+    margin:2rem auto;
+    font-size: 1rem;
+    position: relative;
+}
+div.information p{
+    margin-left: 3rem;
+    line-height: 1.275rem;
+}
+div.information i{
+    position: absolute;
+    top:-0.6rem;
+    left:0.5rem;
+    display:inline-block;
+    width: 2rem;
+    height: 2rem;
+    border:1px #DEEBFF solid;
+    text-align: center;
+    line-height:2rem ;
+    border-radius: 2rem;
+    color:#0065FC;
+    font-size: 0.7rem;
+    }
+/* ************************************* */
+/* la section de 'les plus populaires */
+/* ************************************* */
 div.plus-populaire{
     width: 90%;
     background-color:#F2F2F2;
     margin:auto;
-    
+    box-shadow: 0 0 3px rgba(0, 0,0,0.2);
     padding-bottom:1.2rem;
-    margin-bottom: 5rem;
-    
-    }
+    margin-bottom: 3rem;
+}
+
 div.titre-hotel{
     width: 90%;
     margin:0 auto;
@@ -188,9 +203,8 @@ div.titre-hotel{
     padding:2.5rem 0;
     font-size: 1.3rem;
     font-family: 'raleway-black';
-    
-    
-    }
+ }   
+        
 div.hotel-populaire{
     width: 85%;
    aspect-ratio: 66/27;
@@ -204,14 +218,14 @@ div.hotel-populaire{
     border: 4px white solid;
     background-color: white;
 }
+
 div.hotel-populaire img{
     width:39%;
     object-fit: cover;
     overflow: hidden;
     border-radius: 4px 0 0 4px;
+ }   
     
-    
-}
 div.desc{
     width: 55%;
     height: 100%;
@@ -220,53 +234,69 @@ div.desc{
     font-size:0.9rem;
     border-radius:0 1rem 1rem 0;
     background-color:white;
-   
-}
+}  
+
 div.desc h2{
     font-family:'raleway-black';
     margin-bottom:0.6rem;
     font-size:1rem;
     line-height: 1.2rem;
     }
+
 div.desc p.star{
     position:absolute;
     bottom:1.4rem;
-   
-}
+}   
 
 div.desc p i{
     color:#0065FC;
     
-    }
+}
+
 div.image{
     width: 100%;
     aspect-ratio: 325/115;
     margin:0 auto;
     overflow: hidden;
-border-radius: 1.2rem 1.2rem 0 0;}
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+
 div.image img{
     width:100%;
     object-fit: cover;
     display:block;
     position:relative;
     top:-65px;
-    
 }
+
+/* ******************************* */
+/* la section de 'hebergement a marseille */
+/* ******************************* */
+.hebergement-marseille p.title{
+    width: 76.5%;
+    margin:0 auto;
+   
+    margin-bottom: 2rem;
+    font-family: 'raleway-black';
+    font-size:1.3rem;
+}
+
 .hebergement-marseille h2,
 .hebergement-marseille p
-{width: 95%;
+{
+    width: 95%;
     margin:0 auto;
     margin-top:0.6rem;
     margin-bottom: 0.9rem;
     font-size: 0.875rem;
 }
+
 .hebergement-marseille h2{
     font-size: 1.1rem;
     font-family: 'raleway-black';
-    
-}
+}   
+
 .hebergement-marseille p i{
-    
     color:#0065FC;
     font-size: 0.9rem;
 }
@@ -291,8 +321,15 @@ div.amina img{
 div.mer img{
     top:-100px;
 }
+.hebergement-marseille p.afficher{
+    width: 76.5%;
+    margin:0 auto;
+    font-family: 'raleway-black';
+    font-size: 1.2rem;
+    margin-top:2rem;
+}
 div.hebergement-marseille{
-    margin-bottom: 20rem;
+    margin-bottom: 3rem;
 }
 
 div.activites-marseille h2{
@@ -322,7 +359,7 @@ div.activite p{
     background-color: white;
     border-radius: 0 0 1.3rem 1.3rem;
     font-family: 'raleway-black';
-    font-size:0.9rem;
+    font-size:1.2rem;
 }
 div.activite{
     width: 85%;
