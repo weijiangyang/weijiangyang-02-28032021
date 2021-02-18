@@ -526,13 +526,15 @@ div.activite-longchamps
 div.activite-pomegue p,
 div.activite-frioul p,
 div.activite-garde p, 
-div.activite-longchamps p
+div.activite-longchamps p,
+div.activite-vieux-port p,
+div.activite-calanque p
 {
     width: 100%;
     margin:0 auto;
-
+    font-size: 0.8rem;
     line-height: 3rem;
-    text-indent: 3rem;
+    text-indent: 1rem;
     border-radius:0 0 1.5rem 1.5rem;
     }
 div.section-activite h2{
@@ -551,8 +553,23 @@ div.section-activite{
    body{
        background-color: antiquewhite;
     } 
+    div.activite-pomegue,
+    div.activite-frioul,
+    div.activite-vieux-port,
+    div.activite-calanque,
+    div.activite-garde,
+    div.activite-longchamps
+    {
+        width: 23%;
+    }
     div.activite-pomegue-frioul{
         display:flex;
+        flex-direction: column;
+    }
+    div.image-vieux-port{
+        width:100%;
+        aspect-ratio: 288/370;
+        over
     }
 }
     
