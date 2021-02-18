@@ -617,19 +617,7 @@ div.section-activite{
     
 }
     
-    
-
-    
-
-    
-    
-    
-
-
-    
-
-
-
+   
 /************************* */
 /* footer */
 /* *********************** */
@@ -651,7 +639,9 @@ div.foot-desc h3{
     font-family: 'raleway-black';
 }
 
-
+@media (min-width:1200px){
+    
+}
 
     
     
