@@ -460,31 +460,14 @@ div.hebergement-marseille{
      div.titre-hotel i{
          line-height: 5rem;
      }
-     div.herbergement-marseille p.afficher{
-         width: 85%;
-         background-color: cyan;
+     div.hebergement-marseille p.afficher{
+         width: 90%;
+         font-family: 'raleway-black';
      }
 
      }
 
-     
- 
-
-    
-    
    
-    
-       
-    
-    
- 
-    
-
-  
-
-
-    
-
 /* *************************************** */
 /* la section de 'activites a marseille */
 /* ************************************** */
