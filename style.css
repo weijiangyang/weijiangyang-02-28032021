@@ -63,23 +63,41 @@ nav ul li:first-child{
 }
 
 @media (min-width:1200px){
-    body{
-        
-    }
+    
     .title{
         display:flex;
         justify-content: space-between;
+        height:10rem;
+        align-items: flex-start;
+        
+    }
+    .title img{
+        object-fit: contain;
+        height: 100px;
+        
     }
     .title nav{
         width:35%;
+    
+        
     }
     .title nav ul li{
-        width:33.3%
+        width:33.3%;
+        font-size:1rem;
+        padding-top:3rem;
+        
     }
     nav ul li:last-child{
         position:static;
         line-height: 1rem;
         text-align: center;
+    }
+    nav ul li:first-child{
+      
+        border-top:2px blue solid;
+        border-bottom: none;
+        
+        
     }
 }
 
@@ -436,6 +454,7 @@ div.hebergement-marseille{
      .hebergement-marseille p.title{
          line-height: 5rem;
          padding:0;
+         margin-left:2.5%
      }
      div.auberge div.image{
          aspect-ratio: 283/137;
@@ -519,6 +538,18 @@ div.activite-longchamps
     width:100%;
     aspect-ratio: 432/177;
     overflow: hidden;
+}
+.image-pomegue{
+    aspect-ratio:384/231;
+}
+.image-frioul{
+    aspect-ratio:383/139;
+}
+.image-garde{
+    aspect-ratio:382/177;
+}
+.image-longchamps{
+    aspect-ratio: 384/197;
 }
 .image-pomegue img,
 .image-frioul img,
