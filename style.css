@@ -465,14 +465,27 @@ div.hebergement-marseille{
 /* *************************************** */
 /* la section de 'activites a marseille */
 /* ************************************** */
-
+div.activites-marseille{
+    width: 100%;
+}
 div.activites-marseille h2{
-    width: 85%;
+    width: 80%;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
-    position:absolute;
-}
+    margin:auto;background-color: blue;
+ }
 
+ div.activites-marseille div.vieux-port,
+ /* div.activites-marseille div.pomegue-frioul, */
+ div.activites-marseille div.calanque,
+ div.activites-marseille div.garde-longchamps
+ {
+     width: 90%;
+     margin:auto;
+ }
+ div.activites-marseille div.pomegue-frioul
+ {width: 90%;
+background-color: burlywood;}
 div.activite div.image{
     width: 100%;
     margin: 0 auto;
@@ -497,7 +510,7 @@ div.activite p{
 }
 
 div.activite{
-    width: 85%;
+    width: 100%;
     margin:0 auto;
     box-shadow: 0 0 5px rgba(0, 0,0,0.2);
     border-radius: 2rem;
@@ -512,74 +525,27 @@ div.activite img.garde{
     
 }
 @media (min-width:1200px){
-    /* div.vieux-port,
-    div.pomegue-frioul,
-    div.calanque,
-    div.garde-longchamps{
-        width: 25%;
-    }
-
-    div.activite{width: 100%;
-    } 
-    div.activite div.vieux-port{
-        width: 100%;
-        aspect-ratio: 373/480;
-    }
-    div.activite div.vieux-port img{
-        object-fit: cover;
+    div.activites-marseille{
+        width: 90%;
+        margin:0 auto;
         
-    }
-    div.activite div.pomegue{
-        width: 100%;
-        aspect-ratio: 373/223;
-    } 
-    div.activite div.pomegue img{
-        object-fit:cover;
-    }
-        
-    
-    div.activite div.frioul{
-        width: 100%;
-        aspect-ratio: 370/134;
-    } 
-    div.activite div.frioul img{
-        object-fit:cover;
     }
     div.pomegue-frioul{
-        display:flex;
+        display: flex;
         flex-direction: column;
-    }
-     div.activite div.garde{
-         width: 100%;
-         aspect-ratio: 371/173;
-     }   
-     div.activite div.garde img{
-         object-fit:cover;
-     }  
-     div.activite div.longchamp{
-        width: 100%;
-        aspect-ratio: 373/188;
-    }   
-    div.activite div.longchamp img{
-        object-fit:cover;
-    }  
+        
+    width: 25%;}
     div.garde-longchamps{
         display:flex;
         flex-direction: column;
-        width: 100%;
+        width: 25%;
     }
-    div.activites-marseille{
-        width: 95%;
-        
-        margin:0 auto;
-        background-color: aquamarine;
-        
-        
+    div.vieux-port{
+        width: 25%;
     }
+}
     
-    
-    
-} */
+
 
 /************************* */
 /* footer */
