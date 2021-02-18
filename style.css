@@ -460,11 +460,29 @@ div.hebergement-marseille{
     .hebergement-marseille p.afficher{
         margin-left:2rem}
         }
-    }
+    
 
 /* *************************************** */
 /* la section de 'activites a marseille */
 /* ************************************** */
+.container-activite{
+    width: 90%;
+    margin: 0 auto;
+}
+.image-vieux-port{
+    width: 100%;
+    aspect-ratio: 432/177;
+    overflow: hidden;
+}
+.image-vieux-port img{
+    object-fit: cover;
+    
+    
+    
+
+}
+    
+
 
 
 /************************* */
