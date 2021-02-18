@@ -410,17 +410,56 @@ div.hebergement-marseille{
     margin:auto;
 }
  @media (min-width:1200px){
-    div.container-main{
-        width: 90%;
-        margin:auto;
-        display:flex;}
+     .container-main{
+         width: 90%;
+         margin:auto;
+         background-color: chocolate;
+         display:flex;
+     }
+     div.hebergement-marseille{
+         width: 65%;
+         background-color: cornflowerblue;
+     }
+     div.section-auberge{
+         width: 100%;
+         display:flex;
+         flex-wrap: wrap;
+
+     }
+     div.auberge{
+         width:27%;
+     }
+     .hebergement-marseille p.title{
+         line-height: 5rem;
+         padding:0;
+     }
+     div.auberge div.image{
+         aspect-ratio: 283/137;
+     }
+     div.auberge div.image{
+         object-fit: cover;
+     }
+     div.plus-populaire{
+         width: 32%;
+         order:2;
+     }
+     div.titre-hotel{
+         margin:0;
+     }
+
+     }
+
+     }
+ }
+
+    
     
    
     
        
     
     
-} 
+ 
     
 
   
