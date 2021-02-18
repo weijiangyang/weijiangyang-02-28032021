@@ -548,7 +548,12 @@ div.section-activite{
 }
 /* ************************ */
 @media (min-width:1200px){
-   body{background-color: antiquewhite;} 
+   body{
+       background-color: antiquewhite;
+    } 
+    div.activite-pomegue-frioul{
+        display:flex;
+    }
 }
     
     
