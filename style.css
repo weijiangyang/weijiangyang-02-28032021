@@ -512,7 +512,7 @@ div.activite img.garde{
     
 }
 @media (min-width:1200px){
-    div.activite{width: 20%;
+    div.activite{width: 23%;
     } 
     div.activite div.vieux-port{
         width: 100%;
@@ -520,9 +520,35 @@ div.activite img.garde{
     }
     div.activite div.vieux-port img{
         object-fit: contain;
-    }
         
     }
+    div.activite div.pomegue{
+        width: 100%;
+        aspect-ratio: 373/223;
+    } 
+    div.activite div.pomegue img{
+        objet-fit:cover;
+    }
+        
+    
+    div.activite div.frioul{
+        width: 100%;
+        aspect-ratio: 370/134;
+    } 
+    div.activite div.frioul img{
+        objet-fit:cover;
+    }
+    div.pomegue-frioul{
+        display:flex;
+        flex-direction: column;
+    }
+     div.activite div.garde{
+         width: 100%;
+         aspect-ratio: ;
+     }   
+        
+    
+    
 }
 
 /************************* */
