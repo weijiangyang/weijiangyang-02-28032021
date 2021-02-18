@@ -64,7 +64,7 @@ nav ul li:first-child{
 
 @media (min-width:1200px){
     body{
-        background-color:beige;
+        
     }
     .title{
         display:flex;
@@ -187,7 +187,7 @@ ul.type-hotel li{
     div.filtre{
         width: 90%;
         margin-left:5%;
-        background-color:beige;
+       
         display:flex;
         margin-top:2.5rem
     }
@@ -413,12 +413,16 @@ div.hebergement-marseille{
      .container-main{
          width: 90%;
          margin:auto;
-         background-color: chocolate;
+         
          display:flex;
+         justify-content: space-between;
+         
      }
      div.hebergement-marseille{
          width: 65%;
-         background-color: cornflowerblue;
+         background-color: #f2f2f2;
+         margin:0;
+         border-radius: 1rem;
      }
      div.section-auberge{
          width: 100%;
@@ -442,15 +446,29 @@ div.hebergement-marseille{
      div.plus-populaire{
          width: 32%;
          order:2;
-     }
-     div.titre-hotel{
          margin:0;
+         border-radius: 1rem;
+     }
+     div.hotel-populaire{
+         margin-bottom: 2rem;
+     }
+     div.titre-hotel {
+         padding:0;
+         height:5rem;        
+     }
+     div.titre-hotel p,
+     div.titre-hotel i{
+         line-height: 5rem;
+     }
+     div.herbergement-marseille p.afficher{
+         width: 85%;
+         background-color: cyan;
      }
 
      }
 
-     }
- }
+     
+ 
 
     
     
