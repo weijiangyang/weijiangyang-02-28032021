@@ -640,6 +640,24 @@ div.foot-desc h3{
 }
 
 @media (min-width:1200px){
+    div.footer{
+        display:flex;
+        justify-content: flex-start;
+        padding:3rem 0;
+    }
+    div.foot-desc{
+        width: 33.33%;
+    }
+    div.foot-desc h3{
+        font-size: 1.2rem;
+        padding:0;
+        margin-bottom: 1rem;
+    }  
+    div.foot-desc p{
+        font-size:1rem;
+        font-family:'raleway-light';
+        line-height: 1.8rem;
+    }
     
 }
 
