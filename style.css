@@ -466,20 +466,26 @@ div.hebergement-marseille{
 /* la section de 'activites a marseille */
 /* ************************************** */
 .container-activite{
-    width: 76.5%;
+    width: 85%;
     margin: 0 auto;
 }
-.image-vieux-port{
+.image-vieux-port,
+.image-calanque
+{
     width: 100%;
     aspect-ratio: 432/177;
     overflow: hidden;
 }
-.image-vieux-port img{
+.image-vieux-port img,
+.image-calanque img
+{
     object-fit: cover;
     width: 100%;
     border-radius: 1.5rem 1.5rem 0 0 ;
 }
-div.activite-vieux-port p{
+div.activite-vieux-port p,
+div.activite-calanque p
+{
 width: 100%;
 margin:0 auto;
 background-color: cyan;
@@ -487,33 +493,66 @@ line-height: 3rem;
 text-indent: 3rem;
 border-radius:0 0 1.5rem 1.5rem;
 }
-div.activite-vieux-port{
+div.activite-vieux-port,
+div.activite-calanque,
+div.activite-pomegue,
+div.activite-frioul,
+div.activite-garde,
+div.activite-longchamps
+{
     box-shadow: 0 0 5px rgba(0, 0,0,0.3);
     border-radius: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .image-pomegue,
-.image-frioul
+.image-frioul,
+.image-garde,
+.image-longchamps
 {
     width:100%;
     aspect-ratio: 432/177;
     overflow: hidden;
 }
 .image-pomegue img,
-.image-frioul
+.image-frioul img,
+.image-garde img,
+.image-longchamps img
 {
     object-fit: cover;
     width: 100%;
     border-radius: 1.5rem 1.5rem 0 0 ;
 }
-div.activite-pomegue p{
+div.activite-pomegue p,
+div.activite-frioul p,
+div.activite-garde p, 
+div.activite-longchamps p
+{
     width: 100%;
     margin:0 auto;
-    background-color: cyan;
+
     line-height: 3rem;
     text-indent: 3rem;
     border-radius:0 0 1.5rem 1.5rem;
     }
+div.section-activite h2{
+    width: 85%;
+    margin:2rem auto;
+    font-family: 'raleway-black';
+    font-size: 1.3rem;
+    
+}
+div.section-activite{
+    width: 90%;
+    margin:3rem auto;
+}
+/* ************************ */
+@media (min-width:1200px){
+   body{background-color: antiquewhite;} 
+}
+    
+    
+
     
 
     
