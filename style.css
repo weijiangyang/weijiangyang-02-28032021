@@ -15,7 +15,9 @@ body{
        
     }
 
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    }
 /* *************************** */
 /* header */
 /* *************************** */
@@ -69,12 +71,14 @@ nav ul li:first-child{
         justify-content: space-between;
         height:10rem;
         align-items: flex-start;
+        margin-bottom: 0rem;
         
     }
     .title img{
         object-fit: contain;
         height: 100px;
-        
+        position:relative;
+        top:2rem
     }
     .title nav{
         width:35%;
