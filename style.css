@@ -488,7 +488,7 @@ div.activite-calanque p
 {
 width: 100%;
 margin:0 auto;
-background-color: cyan;
+/* background-color: cyan; */
 line-height: 3rem;
 text-indent: 3rem;
 border-radius:0 0 1.5rem 1.5rem;
@@ -550,27 +550,54 @@ div.section-activite{
 }
 /* ************************ */
 @media (min-width:1200px){
-   body{
-       background-color: antiquewhite;
+   .section-activite h2{
+       width: 80%;
+       
     } 
-    div.activite-pomegue,
-    div.activite-frioul,
+    div.container-activite{
+        width: 100%;
+        /* background-color: aqua; */
+        display:flex;
+        justify-content: space-between;
+       
+    }
+    
+    div.activite-pomegue-frioul,
     div.activite-vieux-port,
     div.activite-calanque,
-    div.activite-garde,
-    div.activite-longchamps
+    div.activite-garde-longchamps
+    
     {
         width: 23%;
     }
-    div.activite-pomegue-frioul{
+    div.activite-pomegue,
+    div.activite-frioul,
+    div.activite-garde,
+    div.activite-longchamps{
+        width: 100%;
+    }
+    div.activite-pomegue-frioul,
+    div.activite-garde-longchamps
+    {
         display:flex;
         flex-direction: column;
+        justify-content: space-between;
     }
-    div.image-vieux-port{
+    div.image-vieux-port,
+    div.image-calanque
+    {
         width:100%;
         aspect-ratio: 288/370;
-        over
-    }
+        }
+    div.image-vieux-port img,
+    div.image-calanque img
+    {
+        width: 100%;
+        height: 100%;
+        }
+            
+        
+    
 }
     
     
