@@ -383,7 +383,7 @@ div.auberge{
     
 }   
 div.auberge div.image{
-    aspect-ratio: 238/125;
+    aspect-ratio: 426/150;
     
 }
 
@@ -466,7 +466,7 @@ div.hebergement-marseille{
 /* la section de 'activites a marseille */
 /* ************************************** */
 .container-activite{
-    width: 90%;
+    width: 76.5%;
     margin: 0 auto;
 }
 .image-vieux-port{
@@ -476,11 +476,51 @@ div.hebergement-marseille{
 }
 .image-vieux-port img{
     object-fit: cover;
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0 ;
+}
+div.activite-vieux-port p{
+width: 100%;
+margin:0 auto;
+background-color: cyan;
+line-height: 3rem;
+text-indent: 3rem;
+border-radius:0 0 1.5rem 1.5rem;
+}
+div.activite-vieux-port{
+    box-shadow: 0 0 5px rgba(0, 0,0,0.3);
+    border-radius: 1.5rem;
+}
+
+.image-pomegue,
+.image-frioul
+{
+    width:100%;
+    aspect-ratio: 432/177;
+    overflow: hidden;
+}
+.image-pomegue img,
+.image-frioul
+{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0 ;
+}
+div.activite-pomegue p{
+    width: 100%;
+    margin:0 auto;
+    background-color: cyan;
+    line-height: 3rem;
+    text-indent: 3rem;
+    border-radius:0 0 1.5rem 1.5rem;
+    }
+    
+
     
     
     
 
-}
+
     
 
 
