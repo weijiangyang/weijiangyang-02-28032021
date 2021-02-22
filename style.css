@@ -18,6 +18,9 @@ body{
 a{
     text-decoration: none;
     }
+a#page-active{
+    color:blue;
+}
 /* *************************** */
 /* header */
 /* *************************** */
