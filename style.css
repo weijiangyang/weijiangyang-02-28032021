@@ -12,7 +12,6 @@
 body{
     font-family:'raleway' ;
     margin:0 auto;
-       
     }
 
 a{
@@ -69,46 +68,40 @@ nav ul li:first-child{
 
 @media (min-width:1200px){
     
-    .title{
-        display:flex;
-        justify-content: space-between;
-        height:10rem;
-        align-items: flex-start;
-        margin-bottom: 0rem;
+.title{
+   display:flex;
+    justify-content: space-between;
+    height:10rem;    
+    align-items: flex-start;    
+    margin-bottom: 0rem;            
+    }
+.title img{
+    object-fit: contain;
+    height: 100px;
+    position:relative;
+    top:2rem
+    }
+.title nav{
+    width:35%;
+    }
+.title nav ul li{    
+    width:33.3%;
+    font-size:1rem;
+    padding-top:3rem;
         
     }
-    .title img{
-        object-fit: contain;
-        height: 100px;
-        position:relative;
-        top:2rem
+nav ul li:last-child{
+    position:static;
+    line-height: 1rem;
+    text-align: center;
     }
-    .title nav{
-        width:35%;
-    
-        
-    }
-    .title nav ul li{
-        width:33.3%;
-        font-size:1rem;
-        padding-top:3rem;
-        
-    }
-    nav ul li:last-child{
-        position:static;
-        line-height: 1rem;
-        text-align: center;
-    }
-    nav ul li:first-child{
+nav ul li:first-child{
       
-        border-top:2px blue solid;
-        border-bottom: none;
-        
-        
-        
+    border-top:2px blue solid;
+    border-bottom: none;
     }
 }
-
+    
 h1.top{
     margin:0 auto;
     width:90%;
@@ -132,8 +125,6 @@ form{display:flex;
     width: 90%;
     margin-left:5%;
     justify-content: space-around;
-    
-    
     border-radius: 0.5rem;
     background-color: #F2F2F2;
     border:1px #f2f2f2 solid;
@@ -156,14 +147,12 @@ form a{
     color:black;}
     
 form input[type='text'] {
-    
     font-family: 'raleway-black';
     width: 70%;
     font-size: 1.125rem;
     border:none;
     font-size: 1.185rem;
     text-indent: 1rem;
-
 }
 
 #butt{
@@ -177,7 +166,6 @@ form input[type='text'] {
     }
 div.filtre{
     width: 90%;
-    
     margin:auto;
 }
 h2.filtre{
@@ -232,12 +220,6 @@ ul.type-hotel li{
     ul.type-hotel li{
         margin-right:1.2rem;
     }
-    
-    
-    
-   
-    
-    
 }
 ul.type-hotel li a{
     color:black;
@@ -343,7 +325,6 @@ div.desc{
     margin-left:2.0rem;
     margin-right: 0.5rem;
     
-    
 }  
 
 div.desc h2{
@@ -428,14 +409,10 @@ div.auberge div.image{
     
 }
 
-
 div.image img{
     width: 100%;
-    object-fit: cover;}
-
-    
-
-
+    object-fit: cover;
+}
 
 .hebergement-marseille p.afficher{
     width: 76.5%;
@@ -459,6 +436,7 @@ div.hebergement-marseille{
          justify-content: space-between;
          
      }
+     
      div.hebergement-marseille{
          width: 65%;
          background-color: #f2f2f2;
@@ -536,6 +514,11 @@ div.hebergement-marseille{
     object-fit: cover;
     width: 100%;
     border-radius: 1.5rem 1.5rem 0 0 ;
+    position:relative;
+}
+.image-calanque img{
+    position: relative;
+    top:-160px;
 }
 div.activite-vieux-port p,
 div.activite-calanque p
@@ -628,10 +611,11 @@ div.section-activite{
     margin:2rem auto;
     font-family: 'raleway-black';
     font-size: 1.3rem;
-       
-    
+      
    }
-     
+   .image-calanque img{
+       position: static;
+   }
     div.container-activite{
         width: 100%;
         /* background-color: aqua; */
