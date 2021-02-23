@@ -299,16 +299,21 @@ div.hotel-populaire{
 }
 
 div.hotel-populaire img{
-    display: block;
+    /* display: block; */
     width:100%;
     height: 100%;
     object-fit: cover;
-    overflow: hidden;
+    position:absolute;
+    left:0;
+    top:0;
+    
     border-radius: 4px 0 0 4px;
  }   
  div.hotel-populaire a.image{
      display:block;
      width: 40%;
+     position:relative;
+     padding:42.8% 0 0;
  }
  div.hotel-populaire a.desc{
      width: 60%;
@@ -319,25 +324,26 @@ div.desc{
     width: 100%;
     height: 100%;
     position:relative;
-    padding-top:0.8rem;
+    padding-top:0.6rem;
     font-size:0.9rem;
     border-radius:0 1rem 1rem 0;
     background-color:white;
-    margin-left:2.0rem;
+    margin-left:1.0rem;
     margin-right: 0.5rem;
     
 }  
 
 div.desc h2{
-    font-family:'raleway-black';
-    margin-bottom:0.6rem;
-    font-size:1rem;
-    line-height: 1.2rem;
+    font-family:'raleway-semibold';
+    margin-bottom:0.3rem;
+    font-size:1.1rem;
+    line-height: 1.5rem;
+    color:black;
     }
 
 div.desc p.star{
     position:absolute;
-    bottom:1.4rem;
+    bottom:1.0rem;
 }   
 
 div.desc p i{
@@ -406,13 +412,20 @@ div.auberge{
     
 }   
 div.auberge div.image{
-    aspect-ratio: 426/150;
+    /* aspect-ratio: 426/150; */
+    width: 100%;
+    padding:8% 0 0;
+    position:relative;
     
 }
 
 div.image img{
     width: 100%;
+    height: 100%;
+    position: absolute;
     object-fit: cover;
+    top:0;
+    left: 0;
 }
 
 .hebergement-marseille p.afficher{
