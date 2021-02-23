@@ -402,6 +402,7 @@ div.image img{
 
 div.auberge{
     width: 85%;
+    
     margin:0 auto;
     border:4px white solid;
     
@@ -414,8 +415,11 @@ div.auberge{
 div.auberge div.image{
     /* aspect-ratio: 426/150; */
     width: 100%;
-    padding:8% 0 0;
+    
+    
+    
     position:relative;
+    overflow: hidden;
     
 }
 
