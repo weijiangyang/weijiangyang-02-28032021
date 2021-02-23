@@ -285,7 +285,8 @@ div.titre-hotel{
         
 div.hotel-populaire{
     width: 85%;
-   aspect-ratio: 66/27;
+   /* aspect-ratio: 66/27; */
+   
     display: flex;
     margin:auto;
     overflow: hidden;
