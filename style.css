@@ -126,45 +126,50 @@ form{display:flex;
     height: 3rem;
     width: 90%;
     margin-left:5%;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 0.5rem;
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
     border:1px #f2f2f2 solid;
     margin-top:2rem;
+    max-width:600px;
     } 
 @media (min-width:1200px){
     form{
-        max-width:400px;
+        
         margin-left:5%;
     }
 } 
 
 form a{
-    display: inline-block;
+    display: grid;
     height: 3rem;
     width: 15%;
     font-size:1.25rem;
+    align-content: center;
     text-align: center;
-    margin-top:1rem;
-    color:black;}
+    /* margin-top:1rem; */
+    color:black;
+    background-color: #f3f3f3;
+}
     
 form input[type='text'] {
     font-family: 'raleway-black';
-    width: 70%;
+    width: 65%;
     font-size: 1.125rem;
     border:none;
     font-size: 1.185rem;
     text-indent: 1rem;
 }
 
-#butt{
+#butt1{
     color:white;
     background-color: blue;
     font-size: 1.2rem;
     margin-right:0;
-    width: 15%;
+    width: auto;
     border:none;
     border-radius:0 0.5rem 0.5rem 0;
+    padding:0 1rem;
     }
 div.filtre{
     width: 90%;
