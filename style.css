@@ -115,7 +115,7 @@ h1.top{
     }
 
 p.villes{
-    font-family:raleway-light;
+    font-family:'raleway-semibold';
     font-size:1.0rem;
     width: 90%;
     margin:0 auto;
@@ -244,7 +244,7 @@ form input[type='text'] {
     display:none;} */
 
 
-/* #butt1{display:none;} */
+
 div.filtre{
     width: 90%;
     margin:auto;
@@ -327,6 +327,7 @@ div.information{
 div.information p{
     margin-left: 3rem;
     line-height: 1.275rem;
+    font-family: 'raleway-semibold';
 }
 div.information i{
     position: absolute;
