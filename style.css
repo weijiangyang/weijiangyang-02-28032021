@@ -121,17 +121,24 @@ p.villes{
     margin:0 auto;
     margin-top:0.9rem;
 }
-form{width:auto;
+form{width:70% ;
     display:flex;
+    max-width: 400px;
+    justify-content: space-between;
     margin-top: 1.5rem;
     margin-left:5%;
-    border-radius: 1rem;
-    background-color: blue;}
+    border:2px #f3f3f3 solid;
+    border-radius: 0.5rem;
+    
+    
+    
+    }
 form a{
     display:inline-block;
     width:auto;
     padding:1rem;
     background-color: #f3f3f3;
+    
     
     }
 form input{
@@ -150,6 +157,7 @@ form input{
     color:white;
     font-size: 1.1rem;
     border:none;
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 #butt2{
     width:auto;
@@ -159,12 +167,14 @@ form input{
     background-color:#0065FC;
     color:white;
     display:none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border:none;
 }
 @media (min-width:1200px){
     #butt2{display:inline-block;}
     #butt1{position:absolute;
         display:none;}}
-}
+
 
 /* form{display:flex;
     height: 3rem;
