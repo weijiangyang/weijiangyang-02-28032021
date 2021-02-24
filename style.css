@@ -121,35 +121,63 @@ p.villes{
     margin:0 auto;
     margin-top:0.9rem;
 }
+form{width:auto;
+    display:flex;
+    margin-top: 1.5rem;
+    margin-left:5%;
+    border-radius: 1rem;
+    background-color: blue;}
+form a{
+    display:inline-block;
+    width:auto;
+    padding:1rem;
+    background-color: #f3f3f3;
+    
+    }
+form input{
+    width: auto;
+    padding-left:0.4rem;
+    padding-right:1rem;
+    font-size:1rem ;
+    font-family: 'raleway-black';
+    border:none
+}
+#butt1{
+    width:auto;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color:#0065FC;
+    color:white;
+    font-size: 1.1rem;
+    border:none;
+}
+#butt2{
+    width:auto;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size: 1.1rem;
+    background-color:#0065FC;
+    color:white;
+    display:none;
+}
+@media (min-width:1200px){
+    #butt2{display:inline-block;}
+    #butt1{position:absolute;
+        display:none;}}
+}
 
-form{display:flex;
+/* form{display:flex;
     height: 3rem;
     width: 90%;
     margin-left:5%;
     justify-content: space-between;
-    border-radius: 0.5rem;
-    /* background-color: #F2F2F2; */
-    border:1px #f2f2f2 solid;
-    margin-top:2rem;
-    max-width:600px;
-    } 
-#butt1{color:white;
-    background-color: blue;
-    font-size: 1.2rem;
-    margin-right:0;
-    width: auto;
-    border:none;
-    border-radius:0 0.5rem 0.5rem 0;
-    padding:0 1rem;
-    display:inline-block}
-/* #butt2{
-display:none;} */
+    border-radius: 0
 @media (min-width:1200px){
     form{
         
         margin-left:5%;
     }
-    /* form#butt2{
+     form#butt2{
         color:white;
         background-color: blue;
         font-size: 1.2rem;
@@ -161,25 +189,23 @@ display:none;} */
         display:block;
         position:static;
         
-        } */
-    form#butt1{display:none;
-        color:red;
-    }
-        
+   
 
 } 
 
+
+}
 form a{
-    display: grid;
+    display: inline-block;
+    align-items: center;
     height: 3rem;
     width: 15%;
     font-size:1.25rem;
-    align-content: center;
+   
     text-align: center;
-    /* margin-top:1rem; */
+    margin-top:1rem; 
     color:black;
-    background-color: #f3f3f3;
-}
+    background-color: #f3f3f3;}
     
 form input[type='text'] {
     font-family: 'raleway-black';
