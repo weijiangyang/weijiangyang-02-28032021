@@ -555,7 +555,7 @@ div.activite-vieux-port a{display:block;width: 100%;}
 /* .image-calanque img{
     position: relative;
     top:-160px; */
-}
+
 div.activite-vieux-port p,
 div.activite-calanque p
 {
@@ -585,7 +585,7 @@ div.activite-longchamps
 {
     width:100%;
     /* aspect-ratio: 432/177; */
-    overflow: hidden;
+    /* overflow: hidden;
 }
 .image-pomegue{
     aspect-ratio:384/231;
@@ -607,7 +607,7 @@ div.activite-longchamps
     object-fit: cover;
     width: 100%;
     border-radius: 1.5rem 1.5rem 0 0 ;
-} */
+}  */
 div.activite-pomegue p,
 div.activite-frioul p,
 div.activite-garde p, 
@@ -618,8 +618,8 @@ div.activite-calanque p
     width: 100%;
     margin:0 auto;
     font-size: 1.0rem;
-    line-height: 4rem;
-    height:4rem;
+    line-height: 3rem;
+    height:3rem;
     text-indent: 1rem;
     border-radius:0 0 1.5rem 1.5rem;
     font-family: 'raleway-black';
@@ -649,9 +649,9 @@ div.section-activite{
     font-size: 1.3rem;
       
    }
-   .image-calanque img{
+   /* .image-calanque img{
        position: static;
-   }
+   } */
     div.container-activite{
         width: 100%;
         /* background-color: aqua; */
@@ -685,14 +685,14 @@ div.section-activite{
     div.image-calanque
     {
         width:100%;
-        aspect-ratio: 288/370;
+        padding:128.5% 0 0;
         }
-    div.image-vieux-port img,
+    /* div.image-vieux-port img,
     div.image-calanque img
     {
         width: 100%;
         height: 100%;
-        }
+        } */
             
         
     
