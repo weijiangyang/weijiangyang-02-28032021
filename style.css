@@ -88,8 +88,9 @@ nav ul li:first-child{
     }
 .title nav ul li{    
     width:33.3%;
-    font-size:1rem;
+    font-size:0.92rem;
     padding-top:3rem;
+    font-family: 'raleway-semibold';
         
     }
 nav ul li:last-child{
@@ -119,13 +120,13 @@ p.villes{
     font-size:1.0rem;
     width: 90%;
     margin:0 auto;
-    margin-top:0.9rem;
+    margin-top:0.5rem;
 }
 form{width:70% ;
     display:flex;
     max-width: 400px;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     margin-left:5%;
     border:2px #f3f3f3 solid;
     border-radius: 0.5rem;
@@ -178,70 +179,7 @@ form input{
         display:none;}}
 
 
-/* form{display:flex;
-    height: 3rem;
-    width: 90%;
-    margin-left:5%;
-    justify-content: space-between;
-    border-radius: 0
-@media (min-width:1200px){
-    form{
-        
-        margin-left:5%;
-    }
-     form#butt2{
-        color:white;
-        background-color: blue;
-        font-size: 1.2rem;
-        margin-right:0;
-        width: auto;
-        border:none;
-        border-radius:0 0.5rem 0.5rem 0;
-        padding:0 1rem;
-        display:block;
-        position:static;
-        
-   
 
-} 
-
-
-}
-form a{
-    display: inline-block;
-    align-items: center;
-    height: 3rem;
-    width: 15%;
-    font-size:1.25rem;
-   
-    text-align: center;
-    margin-top:1rem; 
-    color:black;
-    background-color: #f3f3f3;}
-    
-form input[type='text'] {
-    font-family: 'raleway-black';
-    width: 65%;
-    font-size: 1.125rem;
-    border:none;
-    font-size: 1.185rem;
-    text-indent: 1rem;
-}
-
-    /* #butt2{
-    color:white;
-    background-color: blue;
-    font-size: 1.2rem;
-    margin-right:0;
-    width: auto;
-    border:none;
-    border-radius:0 0.5rem 0.5rem 0;
-    padding:0 1rem;
-    display:block;
-    position:static;
-    }
-    #butt1{position:absolute;
-    display:none;} */
 
 
 
@@ -636,9 +574,7 @@ div.activite-vieux-port a{display:block;width: 100%;}
     top:0;
     left:0;
 }
-/* .image-calanque img{
-    position: relative;
-    top:-160px; */
+
 
 div.activite-vieux-port p,
 div.activite-calanque p
@@ -662,36 +598,7 @@ div.activite-longchamps
     margin-bottom: 2rem;
 }
 
-/* .image-pomegue,
-.image-frioul,
-.image-garde,
-.image-longchamps
-{
-    width:100%;
-    /* aspect-ratio: 432/177; */
-    /* overflow: hidden;
-}
-.image-pomegue{
-    aspect-ratio:384/231;
-}
-.image-frioul{
-    aspect-ratio:383/139;
-}
-.image-garde{
-    aspect-ratio:382/177;
-}
-.image-longchamps{
-    aspect-ratio: 384/197;
-}
-.image-pomegue img,
-.image-frioul img,
-.image-garde img,
-.image-longchamps img
-{
-    object-fit: cover;
-    width: 100%;
-    border-radius: 1.5rem 1.5rem 0 0 ;
-}  */
+
 div.activite-pomegue p,
 div.activite-frioul p,
 div.activite-garde p, 
@@ -733,12 +640,10 @@ div.section-activite{
     font-size: 1.3rem;
       
    }
-   /* .image-calanque img{
-       position: static;
-   } */
+   
     div.container-activite{
         width: 100%;
-        /* background-color: aqua; */
+        
         display:flex;
         justify-content: space-between;
        
@@ -771,13 +676,7 @@ div.section-activite{
         width:100%;
         padding:128.5% 0 0;
         }
-    /* div.image-vieux-port img,
-    div.image-calanque img
-    {
-        width: 100%;
-        height: 100%;
-        } */
-            
+    
         
     
 }
