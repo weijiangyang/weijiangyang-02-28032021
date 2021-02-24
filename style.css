@@ -676,7 +676,30 @@ div.section-activite{
         width:100%;
         padding:128.5% 0 0;
         }
-    
+    div.image-pomegue{
+        width: 100%;
+        padding:59.55% 0 0;
+        position:relative;
+    }
+    div.image-pomegue img{
+        position:absolute;
+        left:0;
+        top:0;
+        object-fit: cover;
+        width: 100%;height: 100%;
+    }
+    div.image-frioul{
+        width: 100%;
+        padding:59.55% 0 0;
+        position:relative;
+    }
+    div.image-pomegue img{
+        position:absolute;
+        left:0;
+        top:0;
+        object-fit: cover;
+        width: 100%;height: 100%;
+    }
         
     
 }
