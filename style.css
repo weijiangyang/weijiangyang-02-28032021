@@ -690,10 +690,23 @@ div.section-activite{
     }
     div.image-frioul{
         width: 100%;
-        padding:59.55% 0 0;
+        padding:36.36% 0 0;
         position:relative;
     }
-    div.image-pomegue img{
+    div.image-frioul img{
+        position:absolute;
+        left:0;
+        top:0;
+        object-fit: cover;
+        width: 100%;height: 100%;
+    }
+    
+    div.image-longchamps{
+        width: 100%;
+        padding:50.65% 0 0;
+        position:relative;
+    }
+    div.image-longchamps img{
         position:absolute;
         left:0;
         top:0;
