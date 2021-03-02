@@ -701,10 +701,14 @@ div.section-activite{
         object-fit: cover;
         width: 100%;height: 100%;
     }
-@media (min-width:1000px){
+@media (max-width:1085px)and (min-width:1000px){
     div.activite-calanque p{
-        text-indent: 0.5rem;
-        font-size: 0,5rem;;}
+        text-indent: 0.2rem;
+        font-size: 0,5rem;}
+    div.desc{
+        margin-left:0.2rem;
+        font-size: 0.5rem;}
+}
 }
         
     
