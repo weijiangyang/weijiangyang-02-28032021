@@ -373,21 +373,7 @@ div.desc p i{
     
 }
 
-div.image{
-    width: 100%;
-    aspect-ratio: 325/115;
-    margin:0 auto;
-    overflow: hidden;
-    border-radius: 1.2rem 1.2rem 0 0;
-}
 
-div.image img{
-    width:100%;
-    object-fit: cover;
-    display:block;
-    position:relative;
-    top:-65px;
-}
 
 /* ******************************* */
 /* la section de 'hebergement a marseille */
@@ -455,6 +441,7 @@ div.image img{
     object-fit: cover;
     top:0;
     left: 0;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .hebergement-marseille p.afficher{
