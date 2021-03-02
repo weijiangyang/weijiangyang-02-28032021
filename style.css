@@ -68,7 +68,7 @@ nav ul li:first-child{
     border-bottom: 3px blue solid;
 }
 
-@media (min-width:1200px){
+@media (min-width:1000px){
     
 .title{
    display:flex;
@@ -173,7 +173,7 @@ form input{
     border-radius: 0 0.5rem 0.5rem 0;
     border:none;
 }
-@media (min-width:1200px){
+@media (min-width:1000px){
     #butt2{display:inline-block;}
     #butt1{position:absolute;
         display:none;}}
@@ -218,7 +218,7 @@ ul.type-hotel li{
         }
 ul.type-hotel li :hover{color:#0065FC;}
 
-@media (min-width:1200px){
+@media (min-width:1000px){
     div.filtre{
         width: 90%;
         margin-left:5%;
@@ -457,7 +457,7 @@ div.hebergement-marseille{
     margin-bottom: 3rem;
     margin:auto;
 }
- @media (min-width:1200px){
+ @media (min-width:1000px){
      .container-main{
          width: 90%;
          margin:auto;
@@ -615,7 +615,7 @@ div.section-activite{
     margin:3rem auto;
 }
 /* ************************ */
-@media (min-width:1200px){
+@media (min-width:1000px){
    .section-activite {
        width: 90%;
        margin:auto;
@@ -701,6 +701,11 @@ div.section-activite{
         object-fit: cover;
         width: 100%;height: 100%;
     }
+@media (min-width:1000px){
+    div.activite-calanque p{
+        text-indent: 0.5rem;
+        font-size: 0,5rem;;}
+}
         
     
 }
@@ -730,7 +735,7 @@ div.foot-desc h3{
    
 }
 
-@media (min-width:1200px){
+@media (min-width:1000px){
     div.footer{
         display:flex;
         justify-content: flex-start;
