@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     color:black;
     }
-a#page-active{
+a.page-active{
     color:blue;
 }
 /* *************************** */
@@ -216,6 +216,7 @@ ul.type-hotel li{
     margin-right:0.5rem;
     border-radius: 1.5rem;
         }
+ul.type-hotel li :hover{color:#0065FC;}
 
 @media (min-width:1200px){
     div.filtre{
