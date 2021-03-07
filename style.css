@@ -316,7 +316,7 @@ div.hotel-populaire{
     margin-bottom:1.5rem;
     box-shadow: 0 0 3px rgba(0, 0,0,0.3);
     border-radius:10px;
-    border: 4px white solid;
+    border: 4px transparent solid;
     background-color: white;
 }
 
@@ -704,7 +704,7 @@ div.section-activite{
 @media (max-width:1085px)and (min-width:1000px){
     div.activite-calanque p{
         text-indent: 0.2rem;
-        font-size: 0,5rem;}
+        font-size: 0.5rem;}
     div.desc{
         margin-left:0.2rem;
         font-size: 0.5rem;}
@@ -712,7 +712,7 @@ div.section-activite{
 }
         
     
-}
+
     
    
 /************************* */
