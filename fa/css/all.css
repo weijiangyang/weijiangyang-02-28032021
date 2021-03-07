@@ -136,12 +136,12 @@
 
 .fa-rotate-270 {
   /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; */
-  -webkit-transform: rotate(270deg);
+  /* -webkit-transform: rotate(270deg); */
           transform: rotate(270deg); }
 
 .fa-flip-horizontal {
   /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)"; */
-  -webkit-transform: scale(-1, 1);
+  /* -webkit-transform: scale(-1, 1); */
           transform: scale(-1, 1); }
 
 .fa-flip-vertical {
