@@ -291,7 +291,7 @@ div.plus-populaire{
     margin:auto;
     box-shadow: 0 0 3px rgba(0, 0,0,0.2);
     padding-bottom:1.2rem;
-    margin-bottom: 3rem;
+    
     
 }
 
@@ -355,13 +355,17 @@ div.desc{
     
 }  
 
-div.desc h2{
+div.desc h3{
     font-family:'raleway-black';
     margin-bottom:0.3rem;
-    font-size:1rem;
+    font-size:0.9rem;
     line-height: 1.5rem;
     color:black;
     }
+div.desc p{
+    font-family: 'raleway-light';
+    font-size: 0.75rem;
+}
 
 div.desc p.star{
     position:absolute;
@@ -378,7 +382,7 @@ div.desc p i{
 /* ******************************* */
 /* la section de 'hebergement a marseille */
 /* ******************************* */
-.hebergement-marseille p.title{
+.hebergement-marseille h2{
     
     margin:0 auto;
    width: 90%;
@@ -387,7 +391,7 @@ div.desc p i{
     font-size:1.3rem;
 }
 
-.hebergement-marseille h2,
+.hebergement-marseille h3,
 .hebergement-marseille p
 {
     width: 95%;
@@ -396,16 +400,19 @@ div.desc p i{
     margin-bottom: 0.7rem;
     font-size: 0.875rem;
 }
+.hebergement-marseille p{
+    font-size: 0.75rem;
+}
 
-.hebergement-marseille h2{
-    font-size: 1rem;
+.hebergement-marseille h3{
+    font-size: 0.9rem;
     font-family: 'raleway-black';
     margin-top: 0.625rem;
 }   
 
 .hebergement-marseille p i{
     color:#0065FC;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 div.auberge{
@@ -485,7 +492,7 @@ div.hebergement-marseille{
          width:27%;
          
      }
-     .hebergement-marseille p.title{
+     .hebergement-marseille h2.title{
          line-height: 5rem;
          padding:0;
          margin-left:2.5%;
@@ -564,8 +571,8 @@ div.activite-vieux-port a{display:block;width: 100%;}
 }
 
 
-div.activite-vieux-port p,
-div.activite-calanque p
+div.activite-vieux-port h3,
+div.activite-calanque h3
 {
 width: 100%;
 margin:0 auto;
@@ -587,12 +594,12 @@ div.activite-longchamps
 }
 
 
-div.activite-pomegue p,
-div.activite-frioul p,
-div.activite-garde p, 
-div.activite-longchamps p,
-div.activite-vieux-port p,
-div.activite-calanque p
+div.activite-pomegue h3,
+div.activite-frioul h3,
+div.activite-garde h3, 
+div.activite-longchamps h3,
+div.activite-vieux-port h3,
+div.activite-calanque h3
 {
     width: 100%;
     margin:0 auto;
@@ -702,9 +709,9 @@ div.section-activite{
         width: 100%;height: 100%;
     }
 @media (max-width:1085px)and (min-width:1000px){
-    div.activite-calanque p{
+    div.activite-calanque h3{
         text-indent: 0.2rem;
-        font-size: 0.5rem;}
+        font-size: 0.8rem;}
     div.desc{
         margin-left:0.2rem;
         font-size: 0.5rem;}
@@ -718,7 +725,7 @@ div.section-activite{
 /************************* */
 /* footer */
 /* *********************** */
-div.footer{
+footer.footer{
     width: 90%;
     background-color:#F2F2F2 ;
     margin:1.8rem auto;
@@ -730,6 +737,11 @@ div.foot-desc p {
     margin-left: 2rem;
     font-size: 0.875rem;
 }
+div.foot-desc p{
+    font-family: 'raleway-light';
+    font-size:0.rem;
+    line-height: 1.5rem;
+}
 
 div.foot-desc h3{
     padding-top:3rem;
@@ -740,7 +752,7 @@ div.foot-desc h3{
 }
 
 @media (min-width:1000px){
-    div.footer{
+    footer.footer{
         display:flex;
         justify-content: flex-start;
         padding:3rem 0;
