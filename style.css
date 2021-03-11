@@ -25,7 +25,7 @@ a.page-active{
 /* *************************** */
 /* header */
 /* *************************** */
-main.title{
+header.title{
     width: 90%;
     margin:0 auto;
     position:relative;
@@ -34,7 +34,7 @@ main.title{
 
 
 
-main.title img{
+header.title img{
     width: 6rem;
     margin-left: 1rem;}
 
@@ -733,7 +733,7 @@ footer.footer{
     padding-bottom:1rem;
 }
 
-div.foot-desc h3,
+div.foot-desc h2,
 div.foot-desc p {              
     margin-left: 2rem;
     font-size: 0.875rem;
@@ -744,7 +744,7 @@ div.foot-desc p{
     line-height: 1.5rem;
 }
 
-div.foot-desc h3{
+div.foot-desc h2{
     padding-top:3rem;
     padding-bottom:1rem;
     font-family: 'raleway-black';
@@ -761,7 +761,7 @@ div.foot-desc h3{
     div.foot-desc{
         width: 33.33%;
     }
-    div.foot-desc h3{
+    div.foot-desc h2{
         font-size: 1rem;
         padding:0;
         margin-bottom: 1rem;
