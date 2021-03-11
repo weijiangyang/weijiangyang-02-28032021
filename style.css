@@ -465,7 +465,7 @@ div.hebergement-marseille{
     margin:auto;
 }
  @media (min-width:1000px){
-     .container-main{
+     main{
          width: 90%;
          margin:auto;
          
