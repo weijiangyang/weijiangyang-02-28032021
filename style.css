@@ -25,7 +25,7 @@ a.page-active{
 /* *************************** */
 /* header */
 /* *************************** */
-div.title{
+main.title{
     width: 90%;
     margin:0 auto;
     position:relative;
@@ -34,7 +34,7 @@ div.title{
 
 
 
-div.title img{
+main.title img{
     width: 6rem;
     margin-left: 1rem;}
 
@@ -513,7 +513,7 @@ div.hebergement-marseille{
          padding:0;
          height:5rem;        
      }
-     div.titre-hotel p,
+     div.titre-hotel h2,
      div.titre-hotel i{
          line-height: 5rem;
      }
