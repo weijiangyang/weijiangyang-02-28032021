@@ -455,7 +455,7 @@ div.image img{
     width: 76.5%;
     margin:0 auto;
     font-family: 'raleway-semibold';
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top:2rem;
 }
 
@@ -526,7 +526,8 @@ div.hebergement-marseille{
      }
      div.hebergement-marseille p.afficher{
          width: 90%;
-         font-family: 'raleway-black';
+         font-family: 'raleway-semibold';
+         font-size: 1rem;
      }
 
      }
